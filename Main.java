@@ -31,7 +31,7 @@ public class Main {
         keyValue_implementation kv=new keyValue_implementation();
         kv.update(1,1);
         kv.update(2,1);
-        kv.update(4,4);
+        kv.update(4,3);
         kv.update(3,1);
         kv.print();
         System.out.println(kv.get(2));
